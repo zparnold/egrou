@@ -11,7 +11,13 @@
     <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
     <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/src/js/bootstrap-datetimepicker.js"></script>
-
+    <style>
+        .lowestqty { background-color: white;}
+        .lowqty { background-color: yellow;}
+        .regqty { background-color: lightgreen;}
+        .highqty {background-color: red;
+            color: white;}
+    </style>
     <asp:LoginView runat="server" ID="DashboardLoginView">
         <AnonymousTemplate>
             <br />
@@ -171,17 +177,73 @@
             <h4>Utilization Percentage Forecast (Individual View)</h4>
             <br />
             <div class="container">
-                <div class ="col-sm-2">
-                    <p>Key</p>
-                    <table>
-                        <tr>< 50% Utilized</tr>
-                        <tr>50% - 74% Utilized</tr>
-                        <tr>75% - 125% Utilized</tr>
-                        <tr>> 125% Utilized</tr>
+                <table class="table table-striped table-hover " id="individualTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 200px;">Resource</th>
+                            <th>Week 1</th>
+                            <th>Week 2</th>
+                            <th>Week 3</th>
+                            <th>Week 4</th>
+                            <th>Week 5</th>
+                            <th>Week 6</th>
+                            <th>Week 7</th>
+                            <th>Week 8</th>
+                            <th>Week 9</th>
+                            <th>Week 10</th>
+                            <th>Week 11</th>
+                            <th>Week 12</th>
+                            <th>Week 13</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="customValidate">Adam Turner</td>
+                        <td class="customValidate">76%</td>
+                        <td class="customValidate">100%</td>
+                        <td class="customValidate">86%</td>
+                        <td class="customValidate">90%</td>
+                        <td class="customValidate">55%</td>
+                        <td class="customValidate">100%</td>
+                        <td class="customValidate">60%</td>
+                        <td class="customValidate">62%</td>
+                        <td class="customValidate">70%</td>
+                        <td class="customValidate">10%</td>
+                        <td class="customValidate">0%</td>
+                        <td class="customValidate">49%</td>
+                        <td class="customValidate">25%</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br/>
+            <div class="container">
+                <div class="col-sm-2">
+                    <table class="table table-striped table-hover ">
+                        <thead>
+                            <tr>
+                                <th>Key</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="background-color: white;">< 50% Utilized</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: yellow;">50% - 74% Utilized</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: lightgreen;">75% - 125% Utilized</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: red; color: white;">> 125% Utilized</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
                 <div class="col-sm-10">
-                    
+                    <p>Utilization Definition:</p>
+                    <p>Utilization percentage is defined as the percentage of billable hours to actual hours, where actual hours is comprised of a typical 40-hour work-week less any holidays.</p>
                 </div>
             </div>
             <!-- END INDIVIDUAL VIEW -->
@@ -248,6 +310,11 @@
                     down: "fa fa-arrow-down"
                 }
             });
+        });
+        $(".customValidate").each(function() {
+            if (parseInt($(this).text()) < 50) {
+                this.addClass("lowestqty");
+            }
         });
     </script>
 </asp:Content>
