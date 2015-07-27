@@ -20,14 +20,6 @@
     </style>
     <asp:LoginView runat="server" ID="DashboardLoginView">
         <AnonymousTemplate>
-            <br />
-            <br />
-            <div class="col-lg-12">
-                <div class="alert alert-danger">
-                    <strong>Oh snap!</strong> You're trying to access info without being logged in!
-                 <a href="/Account/Login.aspx" class="alert-link">Log In</a> and try viewing this page again.
-                </div>
-            </div>
             <div class="modal" id="logInModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -42,6 +34,14 @@
                             <button type="button" class="btn btn-primary" onclick="login_btn_submit()">Log In</button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="col-lg-12">
+                <div class="alert alert-danger">
+                    <strong>Oh snap!</strong> You're trying to access info without being logged in!
+                 <a href="/Account/Login.aspx" class="alert-link">Log In</a> and try viewing this page again.
                 </div>
             </div>
         </AnonymousTemplate>
@@ -227,16 +227,16 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="background-color: white;">< 50% Utilized</td>
+                                <td class="lowestqty">< 50% Utilized</td>
                             </tr>
                             <tr>
-                                <td style="background-color: yellow;">50% - 74% Utilized</td>
+                                <td class="lowqty">50% - 74% Utilized</td>
                             </tr>
                             <tr>
-                                <td style="background-color: lightgreen;">75% - 125% Utilized</td>
+                                <td class="regqty">75% - 125% Utilized</td>
                             </tr>
                             <tr>
-                                <td style="background-color: red; color: white;">> 125% Utilized</td>
+                                <td class="highqty">> 125% Utilized</td>
                             </tr>
                         </tbody>
                     </table>
@@ -246,11 +246,10 @@
                     <p>Utilization percentage is defined as the percentage of billable hours to actual hours, where actual hours is comprised of a typical 40-hour work-week less any holidays.</p>
                 </div>
             </div>
+            <div id="CWAPITest" runat="server"></div>
             <!-- END INDIVIDUAL VIEW -->
         </LoggedInTemplate>
     </asp:LoginView>
-
-    <div id="modal_container" runat="server"></div>
     <script type="text/javascript">
         $(document).ready(function () {
             $("#logInModal").modal("show");
