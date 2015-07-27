@@ -209,9 +209,9 @@
                         <td class="customValidate">62%</td>
                         <td class="customValidate">70%</td>
                         <td class="customValidate">10%</td>
-                        <td class="customValidate">0%</td>
-                        <td class="customValidate">49%</td>
-                        <td class="customValidate">25%</td>
+                        <td class="customValidate">1000%</td>
+                        <td class="customValidate">149%</td>
+                        <td class="customValidate">126%</td>
                     </tr>
                     </tbody>
                 </table>
@@ -312,8 +312,18 @@
             });
         });
         $(".customValidate").each(function() {
-            if (parseInt($(this).text()) < 50) {
-                this.addClass("lowestqty");
+            var value = parseFloat($(this).text()) / 100.0;
+            if (value < 0.5) {
+                $(this).addClass("lowestqty");
+            }
+            else if (value >= 0.5 && value < 0.75) {
+                $(this).addClass("lowqty");
+            }
+            else if (value >= 0.75 && value < 1.25) {
+                $(this).addClass("regqty");
+                
+            } else if (value > 1.25){
+                $(this).addClass("highqty");
             }
         });
     </script>

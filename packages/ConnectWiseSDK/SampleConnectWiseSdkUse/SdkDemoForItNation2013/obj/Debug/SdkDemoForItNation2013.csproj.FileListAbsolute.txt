@@ -1,0 +1,151 @@
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\psatools\SdkDemoForItNation2013\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.3.0.5\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2013.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.2\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.2\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.1.0.2\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.2.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.3.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.4.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Apis.FindConditions.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Cooper.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.xml
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.XmlSerializers.dll
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2014.6.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe.config
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csprojResolveAssemblyReference.cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.FirstWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.TicketEditWindow.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.Properties.Resources.resources
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\obj\Debug\SdkDemoForItNation2013.csproj.GenerateResource.Cache
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\Owl-Icon.ico
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.exe
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\SdkDemoForItNation2013.pdb
+C:\Users\gpancorvo\Desktop\ConnectWiseSDK 2015.1.0.0\SampleConnectWiseSdkUse\SdkDemoForItNation2013\bin\Debug\ConnectWiseSDK.dll
