@@ -2,25 +2,35 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
-
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+    <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/src/js/bootstrap-datetimepicker.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
-    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
-    <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/src/js/bootstrap-datetimepicker.js"></script>
     <style>
-        .lowestqty { background-color: white;}
-        .lowqty { background-color: yellow;}
-        .regqty { background-color: lightgreen;}
-        .highqty {background-color: red;
-            color: white;}
+        .lowestqty {
+            background-color: white;
+        }
+
+        .lowqty {
+            background-color: yellow;
+        }
+
+        .regqty {
+            background-color: lightgreen;
+        }
+
+        .highqty {
+            background-color: red;
+            color: white;
+        }
     </style>
     <asp:LoginView runat="server" ID="DashboardLoginView">
         <AnonymousTemplate>
-            <div class="modal" id="logInModal">
+            <div class="modal fade" id="logInModal">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -44,6 +54,7 @@
                  <a href="/Account/Login.aspx" class="alert-link">Log In</a> and try viewing this page again.
                 </div>
             </div>
+
         </AnonymousTemplate>
         <LoggedInTemplate>
             <!-- Aggregate View-->
@@ -141,39 +152,7 @@
             <!-- END AGGREGATE VIEW -->
             <hr />
             <!-- BEGIN Individual View -->
-            <br />
-            <br />
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                            <span class="sr-only">Toggle navigation</span>
-                        </button>
-                        <a class="navbar-brand" href="#">Individual View</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-floppy-o fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-print fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-file-excel-o fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope-o fa-lg"></i></a></li>
 
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li style="width: 275px; margin-top: 8px;">
-                                <div class='input-group date' id='datetimepicker1'>
-                                    <input type='text' class="form-control" />
-                                    <span class="input-group-addon">
-                                        <span class="fa fa-calendar"></span>
-                                    </span>
-                                </div>
-                            </li>
-                            <li><a href="#" class="btn btn-primary" onclick="refreshBtnClick" style="color: white" id="refreshBtn2"><i class="fa fa-refresh" id="spinIcon2"></i>Update Results</a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-filter"></i>Filter</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
             <h4>Utilization Percentage Forecast (Individual View)</h4>
             <br />
             <div class="container">
@@ -197,26 +176,26 @@
                         </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td class="customValidate">Adam Turner</td>
-                        <td class="customValidate">76%</td>
-                        <td class="customValidate">100%</td>
-                        <td class="customValidate">86%</td>
-                        <td class="customValidate">90%</td>
-                        <td class="customValidate">55%</td>
-                        <td class="customValidate">100%</td>
-                        <td class="customValidate">60%</td>
-                        <td class="customValidate">62%</td>
-                        <td class="customValidate">70%</td>
-                        <td class="customValidate">10%</td>
-                        <td class="customValidate">1000%</td>
-                        <td class="customValidate">149%</td>
-                        <td class="customValidate">126%</td>
-                    </tr>
+                        <tr>
+                            <td class="customValidate">Adam Turner</td>
+                            <td class="customValidate">76%</td>
+                            <td class="customValidate">100%</td>
+                            <td class="customValidate">86%</td>
+                            <td class="customValidate">90%</td>
+                            <td class="customValidate">55%</td>
+                            <td class="customValidate">100%</td>
+                            <td class="customValidate">60%</td>
+                            <td class="customValidate">62%</td>
+                            <td class="customValidate">70%</td>
+                            <td class="customValidate">10%</td>
+                            <td class="customValidate">1000%</td>
+                            <td class="customValidate">149%</td>
+                            <td class="customValidate">126%</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
-            <br/>
+            <br />
             <div class="container">
                 <div class="col-sm-2">
                     <table class="table table-striped table-hover ">
@@ -250,13 +229,43 @@
             <!-- END INDIVIDUAL VIEW -->
         </LoggedInTemplate>
     </asp:LoginView>
+
     <script type="text/javascript">
-        $(document).ready(function () {
-            $("#logInModal").modal("show");
+        $(function () {
+            $('#datetimepicker8').datetimepicker({
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-arrow-up",
+                    down: "fa fa-arrow-down"
+                }
+            });
         });
-        function login_btn_submit() {
-            window.location.replace("/Account/Login");
-        }
+        $(function () {
+            $('#datetimepicker1').datetimepicker({
+                icons: {
+                    time: "fa fa-clock-o",
+                    date: "fa fa-calendar",
+                    up: "fa fa-arrow-up",
+                    down: "fa fa-arrow-down"
+                }
+            });
+        });
+        $(".customValidate").each(function () {
+            var value = parseFloat($(this).text()) / 100.0;
+            if (value < 0.5) {
+                $(this).addClass("lowestqty");
+            }
+            else if (value >= 0.5 && value < 0.75) {
+                $(this).addClass("lowqty");
+            }
+            else if (value >= 0.75 && value < 1.25) {
+                $(this).addClass("regqty");
+
+            } else if (value > 1.25) {
+                $(this).addClass("highqty");
+            }
+        });
 
         $("#refreshBtn").on("mouseover", function () {
             $(this).css("color", "black");
@@ -288,42 +297,12 @@
                 $("#spinIcon2").removeClass("fa-spin");
             }, 3000);
         });
-    </script>
-    <script type="text/javascript">
-        $(function () {
-            $('#datetimepicker8').datetimepicker({
-                icons: {
-                    time: "fa fa-clock-o",
-                    date: "fa fa-calendar",
-                    up: "fa fa-arrow-up",
-                    down: "fa fa-arrow-down"
-                }
-            });
+
+        $("document").ready(function () {
+            $("#logInModal").appendTo("body").modal("show");
         });
-        $(function () {
-            $('#datetimepicker1').datetimepicker({
-                icons: {
-                    time: "fa fa-clock-o",
-                    date: "fa fa-calendar",
-                    up: "fa fa-arrow-up",
-                    down: "fa fa-arrow-down"
-                }
-            });
-        });
-        $(".customValidate").each(function() {
-            var value = parseFloat($(this).text()) / 100.0;
-            if (value < 0.5) {
-                $(this).addClass("lowestqty");
-            }
-            else if (value >= 0.5 && value < 0.75) {
-                $(this).addClass("lowqty");
-            }
-            else if (value >= 0.75 && value < 1.25) {
-                $(this).addClass("regqty");
-                
-            } else if (value > 1.25){
-                $(this).addClass("highqty");
-            }
-        });
+        function login_btn_submit() {
+            window.location.replace("/Account/Login");
+        }
     </script>
 </asp:Content>
