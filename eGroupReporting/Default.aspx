@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
-    
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
     <script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/a549aa8780dbda16f6cff545aeabc3d71073911e/src/js/bootstrap-datetimepicker.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -61,178 +61,185 @@
             <br />
             <br />
             <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                            <span class="sr-only">Toggle navigation</span>
-                        </button>
-                        <a class="navbar-brand" href="#">Aggregate View</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#"><i class="fa fa-floppy-o fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-print fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-file-excel-o fa-lg"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope-o fa-lg"></i></a></li>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><i class="fa fa-floppy-o fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-print fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-file-excel-o fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o fa-lg"></i></a></li>
 
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li style="width: 275px; margin-top: 8px;">
-                                <div class='input-group date' id='datetimepicker8'>
-                                    <input type='text' class="form-control" />
-                                    <span class="input-group-addon">
-                                        <span class="fa fa-calendar"></span>
-                                    </span>
-                                </div>
-                            </li>
-                            <li><a href="#" class="btn btn-primary" onclick="refreshBtnClick" style="color: white" id="refreshBtn"><i class="fa fa-refresh" id="spinIcon"></i>Update Results</a></li>
-                            <li><a href="#" class="btn btn-default"><i class="fa fa-filter"></i>Filter</a></li>
-                        </ul>
-                    </div>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <p style="margin-top: 8px;">Begin: </p>
+                        </li>
+                        <li style="width: 200px; margin-top: 8px;">
+                            <div class='input-group date' id='datetimepicker1'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="fa fa-calendar"></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li><p style="margin-top: 8px;">To: </p></li>
+                        <li style="width: 200px; margin-top: 8px;">
+                            <div class='input-group date' id='datetimepicker2'>
+                                <input type='text' class="form-control" />
+                                <span class="input-group-addon">
+                                    <span class="fa fa-calendar"></span>
+                                </span>
+                            </div>
+                        </li>
+                        <li><a href="#" class="btn btn-primary" onclick="refreshBtnClick" style="color: white" id="refreshBtn"><i class="fa fa-refresh" id="spinIcon"></i>Update Results</a></li>
+                        <li><a href="#" class="btn btn-default"><i class="fa fa-filter"></i>Filter</a></li>
+                    </ul>
+                </div>
                 </div>
             </nav>
-            <h4>Utilization Percentage Forecast (Aggregate View)</h4>
-            <br />
             <div class="container">
-                <div class="col-lg-3">
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Team Utilization</h3>
-                        </div>
-                        <div class="panel-body">
-                            <h1 style="text-align: center;">79%</h1>
+                <h4>Utilization Percentage Forecast (Aggregate View)</h4>
+                <br />
+                <div class="container">
+                    <div class="col-lg-3">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Team Utilization</h3>
+                            </div>
+                            <div class="panel-body">
+                                <h1 style="text-align: center;">79%</h1>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-lg-9">
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                                <tr class="info">
+                                    <th>Billing Type</th>
+                                    <th>Last 90 Days</th>
+                                    <th>Next 90 Days</th>
+                                    <th>% Change</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Utilization</td>
+                                    <td>41%</td>
+                                    <td>68%</td>
+                                    <td>66% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>% Training</td>
+                                    <td>22%</td>
+                                    <td>15%</td>
+                                    <td>32% Decrease <i class="fa fa-arrow-down fa-lg" style="color: red;"></td>
+                                </tr>
+                                <tr>
+                                    <td>% PTO</td>
+                                    <td>18%</td>
+                                    <td>12%</td>
+                                    <td>33% Decrease <i class="fa fa-arrow-down fa-lg" style="color: red;"></td>
+                                </tr>
+                                <tr>
+                                    <td>% Sales Engineering</td>
+                                    <td>15%</td>
+                                    <td>22%</td>
+                                    <td>46% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>% Travel</td>
+                                    <td>15%</td>
+                                    <td>22%</td>
+                                    <td>46% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="col-lg-9">
-                    <table class="table table-striped table-hover ">
-                        <thead>
-                            <tr class="info">
-                                <th>Billing Type</th>
-                                <th>Last 90 Days</th>
-                                <th>Next 90 Days</th>
-                                <th>% Change</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Utilization</td>
-                                <td>41%</td>
-                                <td>68%</td>
-                                <td>66% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
-                            </tr>
-                            <tr>
-                                <td>% Training</td>
-                                <td>22%</td>
-                                <td>15%</td>
-                                <td>32% Decrease <i class="fa fa-arrow-down fa-lg" style="color: red;"></td>
-                            </tr>
-                            <tr>
-                                <td>% PTO</td>
-                                <td>18%</td>
-                                <td>12%</td>
-                                <td>33% Decrease <i class="fa fa-arrow-down fa-lg" style="color: red;"></td>
-                            </tr>
-                            <tr>
-                                <td>% Sales Engineering</td>
-                                <td>15%</td>
-                                <td>22%</td>
-                                <td>46% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
-                            </tr>
-                            <tr>
-                                <td>% Travel</td>
-                                <td>15%</td>
-                                <td>22%</td>
-                                <td>46% Increase <i class="fa fa-arrow-up fa-lg" style="color: green;"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <!-- END AGGREGATE VIEW -->
-            <hr />
-            <!-- BEGIN Individual View -->
+                <!-- END AGGREGATE VIEW -->
+                <hr />
+                <!-- BEGIN Individual View -->
 
-            <h4>Utilization Percentage Forecast (Individual View)</h4>
-            <br />
-            <div class="container">
-                <table class="table table-striped table-hover " id="individualTable">
-                    <thead>
-                        <tr>
-                            <th style="width: 200px;">Resource</th>
-                            <th>Week 1</th>
-                            <th>Week 2</th>
-                            <th>Week 3</th>
-                            <th>Week 4</th>
-                            <th>Week 5</th>
-                            <th>Week 6</th>
-                            <th>Week 7</th>
-                            <th>Week 8</th>
-                            <th>Week 9</th>
-                            <th>Week 10</th>
-                            <th>Week 11</th>
-                            <th>Week 12</th>
-                            <th>Week 13</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="customValidate">Adam Turner</td>
-                            <td class="customValidate">76%</td>
-                            <td class="customValidate">100%</td>
-                            <td class="customValidate">86%</td>
-                            <td class="customValidate">90%</td>
-                            <td class="customValidate">55%</td>
-                            <td class="customValidate">100%</td>
-                            <td class="customValidate">60%</td>
-                            <td class="customValidate">62%</td>
-                            <td class="customValidate">70%</td>
-                            <td class="customValidate">10%</td>
-                            <td class="customValidate">1000%</td>
-                            <td class="customValidate">149%</td>
-                            <td class="customValidate">126%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <br />
-            <div class="container">
-                <div class="col-sm-2">
-                    <table class="table table-striped table-hover ">
+                <h4>Utilization Percentage Forecast (Individual View)</h4>
+                <br />
+                <div class="container">
+                    <table class="table table-striped table-hover " id="individualTable">
                         <thead>
                             <tr>
-                                <th>Key</th>
+                                <th style="width: 200px;">Resource</th>
+                                <th>Week 1</th>
+                                <th>Week 2</th>
+                                <th>Week 3</th>
+                                <th>Week 4</th>
+                                <th>Week 5</th>
+                                <th>Week 6</th>
+                                <th>Week 7</th>
+                                <th>Week 8</th>
+                                <th>Week 9</th>
+                                <th>Week 10</th>
+                                <th>Week 11</th>
+                                <th>Week 12</th>
+                                <th>Week 13</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="lowestqty">< 50% Utilized</td>
-                            </tr>
-                            <tr>
-                                <td class="lowqty">50% - 74% Utilized</td>
-                            </tr>
-                            <tr>
-                                <td class="regqty">75% - 125% Utilized</td>
-                            </tr>
-                            <tr>
-                                <td class="highqty">> 125% Utilized</td>
+                                <td class="customValidate">Adam Turner</td>
+                                <td class="customValidate">76%</td>
+                                <td class="customValidate">100%</td>
+                                <td class="customValidate">86%</td>
+                                <td class="customValidate">90%</td>
+                                <td class="customValidate">55%</td>
+                                <td class="customValidate">100%</td>
+                                <td class="customValidate">60%</td>
+                                <td class="customValidate">62%</td>
+                                <td class="customValidate">70%</td>
+                                <td class="customValidate">10%</td>
+                                <td class="customValidate">1000%</td>
+                                <td class="customValidate">149%</td>
+                                <td class="customValidate">126%</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-sm-10">
-                    <p>Utilization Definition:</p>
-                    <p>Utilization percentage is defined as the percentage of billable hours to actual hours, where actual hours is comprised of a typical 40-hour work-week less any holidays.</p>
+                <br />
+                <div class="container">
+                    <div class="col-sm-2">
+                        <table class="table table-striped table-hover ">
+                            <thead>
+                                <tr>
+                                    <th>Key</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="lowestqty">< 50% Utilized</td>
+                                </tr>
+                                <tr>
+                                    <td class="lowqty">50% - 74% Utilized</td>
+                                </tr>
+                                <tr>
+                                    <td class="regqty">75% - 125% Utilized</td>
+                                </tr>
+                                <tr>
+                                    <td class="highqty">> 125% Utilized</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-10">
+                        <p>Utilization Definition:</p>
+                        <p>Utilization percentage is defined as the percentage of billable hours to actual hours, where actual hours is comprised of a typical 40-hour work-week less any holidays.</p>
+                    </div>
                 </div>
+                <div id="CWAPITest" runat="server"></div>
+                <!-- END INDIVIDUAL VIEW -->
             </div>
-            <div id="CWAPITest" runat="server"></div>
-            <!-- END INDIVIDUAL VIEW -->
         </LoggedInTemplate>
     </asp:LoginView>
 
     <script type="text/javascript">
         $(function () {
-            $('#datetimepicker8').datetimepicker({
+            $('#datetimepicker1').datetimepicker({
                 icons: {
                     time: "fa fa-clock-o",
                     date: "fa fa-calendar",
@@ -242,7 +249,7 @@
             });
         });
         $(function () {
-            $('#datetimepicker1').datetimepicker({
+            $('#datetimepicker2').datetimepicker({
                 icons: {
                     time: "fa fa-clock-o",
                     date: "fa fa-calendar",

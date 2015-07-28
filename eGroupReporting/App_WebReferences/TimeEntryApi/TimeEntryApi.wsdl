@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://connectwise.com" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://connectwise.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ConnectWise TimeEntry API</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://connectwise.com">
+      <s:element name="GetTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ApiCredentials">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CompanyId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IntegratorLoginId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IntegratorPassword" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTimeEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTimeEntryResult" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TimeEntry">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Notes" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DateStart" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeStart" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="TimeEnd" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="ActualHours" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemberIdentifier" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WorkType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WorkRole" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InternalNotes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResponseMessage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastUpdatedUTC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="LastUpdated" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdatedBy" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursBilled" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursDeduct" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgreementId" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ActivityId" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChargeCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Overnight" nillable="true" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="TicketId" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="AddNotesToDetailDescription" nillable="true" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="AddNotesToInternalAnalysis" nillable="true" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="AddNotesToResolution" nillable="true" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="LoadTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadTimeEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadTimeEntryResult" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="0" maxOccurs="1" name="timeEntry" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddTimeEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddTimeEntryResult" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="0" maxOccurs="1" name="timeEntry" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateTimeEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateTimeEntryResult" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddOrUpdateTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="0" maxOccurs="1" name="timeEntry" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddOrUpdateTimeEntryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddOrUpdateTimeEntryResult" type="tns:TimeEntry" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteTimeEntry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteTimeEntryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="FindTimeEntries">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:ApiCredentials" />
+            <s:element minOccurs="0" maxOccurs="1" name="conditions" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="orderBy" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="limit" nillable="true" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="skip" nillable="true" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="returnFields" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FindTimeEntriesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FindTimeEntriesResult" type="tns:ArrayOfTimeEntryFindResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTimeEntryFindResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TimeEntryFindResult" nillable="true" type="tns:TimeEntryFindResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TimeEntryFindResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemberName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MemberIdentifier" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="StartTime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="EndTime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursActual" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursInvoiced" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HourlyRate" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Notes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InternalNotes" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TicketId" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="WorkRole" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="WorkType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BillableOption" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceNumber" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursBilled" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="HoursDeduct" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgreementId" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UpdatedBy" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LastUpdated" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:LoadTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="LoadTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:LoadTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:AddTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="AddTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:AddTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddOrUpdateTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:AddOrUpdateTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="AddOrUpdateTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:AddOrUpdateTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTimeEntrySoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteTimeEntry" />
+  </wsdl:message>
+  <wsdl:message name="DeleteTimeEntrySoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteTimeEntryResponse" />
+  </wsdl:message>
+  <wsdl:message name="FindTimeEntriesSoapIn">
+    <wsdl:part name="parameters" element="tns:FindTimeEntries" />
+  </wsdl:message>
+  <wsdl:message name="FindTimeEntriesSoapOut">
+    <wsdl:part name="parameters" element="tns:FindTimeEntriesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TimeEntryApiSoap">
+    <wsdl:operation name="GetTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Gets an time entry by database record id. If no time entry exists with the given id, null is returned.</wsdl:documentation>
+      <wsdl:input message="tns:GetTimeEntrySoapIn" />
+      <wsdl:output message="tns:GetTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Gets an time entry by database record id. If no time entry exists with the given id, an error is returned.</wsdl:documentation>
+      <wsdl:input message="tns:LoadTimeEntrySoapIn" />
+      <wsdl:output message="tns:LoadTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Adds a new time entry.</wsdl:documentation>
+      <wsdl:input message="tns:AddTimeEntrySoapIn" />
+      <wsdl:output message="tns:AddTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Updates an existing time entry.</wsdl:documentation>
+      <wsdl:input message="tns:UpdateTimeEntrySoapIn" />
+      <wsdl:output message="tns:UpdateTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddOrUpdateTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Adds or updates an time entry. If the time entry Id is 0, the time entry is added. If non-zero, the existing time entry with that Id is updated.</wsdl:documentation>
+      <wsdl:input message="tns:AddOrUpdateTimeEntrySoapIn" />
+      <wsdl:output message="tns:AddOrUpdateTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTimeEntry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Deletes an time entry by database record id.</wsdl:documentation>
+      <wsdl:input message="tns:DeleteTimeEntrySoapIn" />
+      <wsdl:output message="tns:DeleteTimeEntrySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FindTimeEntries">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Finds time entry information by a set of conditions.</wsdl:documentation>
+      <wsdl:input message="tns:FindTimeEntriesSoapIn" />
+      <wsdl:output message="tns:FindTimeEntriesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="TimeEntryApiSoap" type="tns:TimeEntryApiSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/GetTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/LoadTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/AddTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/UpdateTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddOrUpdateTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/AddOrUpdateTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTimeEntry">
+      <soap:operation soapAction="http://connectwise.com/DeleteTimeEntry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTimeEntries">
+      <soap:operation soapAction="http://connectwise.com/FindTimeEntries" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="TimeEntryApiSoap12" type="tns:TimeEntryApiSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/GetTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/LoadTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/AddTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/UpdateTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddOrUpdateTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/AddOrUpdateTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTimeEntry">
+      <soap12:operation soapAction="http://connectwise.com/DeleteTimeEntry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindTimeEntries">
+      <soap12:operation soapAction="http://connectwise.com/FindTimeEntries" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TimeEntryApi">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">ConnectWise TimeEntry API</wsdl:documentation>
+    <wsdl:port name="TimeEntryApiSoap" binding="tns:TimeEntryApiSoap">
+      <soap:address location="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx" />
+    </wsdl:port>
+    <wsdl:port name="TimeEntryApiSoap12" binding="tns:TimeEntryApiSoap12">
+      <soap12:address location="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

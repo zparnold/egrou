@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx?wsdl" docRef="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx" xmlns:q1="http://connectwise.com" binding="q1:TimeEntryApiSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://connectwise.egroup-us.com/v4_6_release/apis/2.0/TimeEntryApi.asmx" xmlns:q2="http://connectwise.com" binding="q2:TimeEntryApiSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
